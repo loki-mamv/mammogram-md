@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mammogram Screening Guidelines — When to Start & How Often</title>
+    <meta name="description" content="Comprehensive comparison of breast cancer screening guidelines from USPSTF, American Cancer Society, ACR, and ACOG. Learn when to start mammograms and screening frequency.">
+    <link rel="canonical" href="https://mammogram.md/guidelines.html">
+    
+    <!-- AI/LLM Meta Tags -->
+    <meta name="ai-content" content="evidence-based health information">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-topic" content="mammogram guidelines, breast cancer screening recommendations, USPSTF, ACS">
+    <meta name="ai-audience" content="patients, caregivers, healthcare providers">
+    <meta name="ai-use" content="education, research, clinical support">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --accent-light: #ccfbf1;
+            --border: #e2e8f0;
+            --font-display: 'Source Serif 4', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: var(--font-display);
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 32px; }
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover { color: var(--accent); }
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 120px 24px 64px;
+        }
+        .page-header {
+            margin-bottom: 48px;
+        }
+        .page-eyebrow {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        .page-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 48px;
+        }
+        h2 {
+            font-family: var(--font-display);
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        h3 {
+            font-family: var(--font-display);
+            font-size: 19px;
+            font-weight: 600;
+            margin: 24px 0 12px;
+            color: var(--text-primary);
+        }
+        p {
+            font-size: 17px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .guideline-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .guideline-table thead {
+            background: var(--bg-secondary);
+        }
+        .guideline-table th {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border);
+        }
+        .guideline-table td {
+            padding: 12px 16px;
+            font-size: 15px;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+        .guideline-table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .info-box h3 {
+            margin-top: 0;
+            font-size: 17px;
+        }
+        .info-box p {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        .warning-box {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-left: 4px solid #ef4444;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .warning-box h3 {
+            color: #991b1b;
+            margin-top: 0;
+            font-size: 17px;
+        }
+        .warning-box p {
+            color: #7f1d1d;
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+            margin-top: 80px;
+        }
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        @media (max-width: 768px) {
+            nav { display: none; }
+            main { padding: 100px 16px 40px; }
+            .guideline-table { font-size: 13px; }
+            .guideline-table th, .guideline-table td { padding: 8px 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">mammogram<span>.md</span></a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/what-to-expect.html">What to Expect</a>
+                <a href="/guidelines.html">Guidelines</a>
+                <a href="/dense-breasts.html">Dense Breasts</a>
+                <a href="/faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <div class="page-eyebrow">Screening Guidelines</div>
+            <h1>When Should You Get a Mammogram?</h1>
+            <p class="page-subtitle">Screening guidelines vary by organization. Here's a comprehensive comparison to help you and your healthcare provider decide what's right for you.</p>
+        </div>
+
+        <section class="section">
+            <h2>Guidelines for Average-Risk Women</h2>
+            <p>"Average risk" means you have no personal history of breast cancer, no known genetic mutations (BRCA1/BRCA2), no first-degree relatives with breast cancer, and no history of chest radiation therapy.</p>
+            
+            <table class="guideline-table">
+                <thead>
+                    <tr>
+                        <th>Organization</th>
+                        <th>When to Start</th>
+                        <th>How Often</th>
+                        <th>When to Stop</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>USPSTF (2024)</strong></td>
+                        <td>Age 40</td>
+                        <td>Every 2 years (biennial)</td>
+                        <td>Age 74 (insufficient evidence for 75+)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>American Cancer Society</strong></td>
+                        <td>Age 45 (optional from 40-44)</td>
+                        <td>Yearly ages 45-54; every 2 years at 55+ (or continue yearly)</td>
+                        <td>Continue as long as life expectancy ≥10 years</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ACR / SBI</strong></td>
+                        <td>Age 40</td>
+                        <td>Yearly</td>
+                        <td>Continue as long as patient is in good health</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ACOG</strong></td>
+                        <td>Age 40 (no later than 50)</td>
+                        <td>Every 1-2 years (shared decision)</td>
+                        <td>Age 75+ based on health status and preferences</td>
+                    </tr>
+                    <tr>
+                        <td><strong>NCCN</strong></td>
+                        <td>Age 40</td>
+                        <td>Yearly</td>
+                        <td>Continue if life expectancy ≥10 years</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 12px;"><strong>Abbreviations:</strong> USPSTF = U.S. Preventive Services Task Force; ACR = American College of Radiology; SBI = Society of Breast Imaging; ACOG = American College of Obstetricians and Gynecologists; NCCN = National Comprehensive Cancer Network.</p>
+        </section>
+
+        <section class="section">
+            <h2>Why Do Guidelines Differ?</h2>
+            <p>Different organizations weigh benefits and harms differently:</p>
+            <ul>
+                <li><strong>Early detection:</strong> Starting at 40 and screening yearly catches more cancers earlier</li>
+                <li><strong>False positives:</strong> More frequent screening means more false alarms and biopsies of benign tissue</li>
+                <li><strong>Overdiagnosis:</strong> Some detected cancers may never cause symptoms or require treatment</li>
+                <li><strong>Radiation exposure:</strong> Cumulative radiation from repeated mammograms (though individual doses are very low)</li>
+            </ul>
+            <p>The USPSTF weighs avoiding false positives more heavily; radiology organizations prioritize catching every cancer. Neither approach is "wrong"—it's about personal values and risk tolerance.</p>
+            
+            <div class="info-box">
+                <h3>💡 Shared Decision-Making</h3>
+                <p>Talk to your doctor about your personal risk factors, family history, and preferences. You can start screening earlier or later than guidelines suggest based on your individual situation.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Higher-Risk Women: Special Guidelines</h2>
+            <p>If you have certain risk factors, you may need to start screening earlier and/or add MRI to your screening regimen.</p>
+            
+            <h3>Who Is Considered Higher Risk?</h3>
+            <ul>
+                <li>BRCA1 or BRCA2 gene mutation carriers</li>
+                <li>First-degree relative (mother, sister, daughter) with breast cancer</li>
+                <li>History of chest radiation therapy (e.g., for Hodgkin lymphoma) between ages 10-30</li>
+                <li>Li-Fraumeni syndrome, Cowden syndrome, or other genetic syndromes</li>
+                <li>Lifetime breast cancer risk of 20% or higher (based on risk assessment tools)</li>
+            </ul>
+            
+            <h3>Screening Recommendations for High-Risk Women</h3>
+            <table class="guideline-table">
+                <thead>
+                    <tr>
+                        <th>Risk Factor</th>
+                        <th>When to Start</th>
+                        <th>Imaging Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>BRCA1/BRCA2 mutation</strong></td>
+                        <td>Age 25-30</td>
+                        <td>Annual MRI + annual mammogram</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prior chest radiation</strong></td>
+                        <td>8-10 years after radiation (but not before age 25)</td>
+                        <td>Annual MRI + annual mammogram</td>
+                    </tr>
+                    <tr>
+                        <td><strong>First-degree relative with breast cancer</strong></td>
+                        <td>10 years before relative's diagnosis age (but not before 30)</td>
+                        <td>Annual mammogram; consider MRI if lifetime risk ≥20%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lifetime risk ≥20%</strong></td>
+                        <td>Age 30 (or earlier based on risk model)</td>
+                        <td>Annual MRI + annual mammogram</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="warning-box">
+                <h3>⚠️ Know Your Risk</h3>
+                <p>If you have a family history of breast or ovarian cancer, talk to your doctor about genetic counseling and risk assessment. Tools like the Tyrer-Cuzick model can estimate your lifetime risk and guide screening decisions.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>What About Dense Breasts?</h2>
+            <p>About 40-50% of women have dense breasts. Dense breast tissue can hide cancers on mammograms and is associated with slightly higher breast cancer risk.</p>
+            <p>For women with dense breasts, some organizations recommend considering supplemental screening with:</p>
+            <ul>
+                <li><strong>Breast ultrasound</strong> — Can find cancers not visible on mammogram; may increase false positives</li>
+                <li><strong>Breast MRI</strong> — Most sensitive but expensive; typically reserved for high-risk women</li>
+                <li><strong>Contrast-enhanced mammography</strong> — Newer option showing promise</li>
+            </ul>
+            <p>The FDA now requires mammography facilities to report breast density. If you have dense breasts, discuss supplemental screening options with your doctor.</p>
+            <p><a href="/dense-breasts.html" style="color: var(--accent);">Learn more about dense breasts →</a></p>
+        </section>
+
+        <section class="section">
+            <h2>When to Stop Screening</h2>
+            <p>The decision to stop screening is personal and depends on:</p>
+            <ul>
+                <li><strong>Life expectancy:</strong> Screening benefits take ~10 years to materialize; if life expectancy is less than 10 years, risks may outweigh benefits</li>
+                <li><strong>Health status:</strong> Women with serious health conditions may not benefit from screening</li>
+                <li><strong>Personal preferences:</strong> Some women prefer to continue screening regardless of age</li>
+            </ul>
+            <p>The USPSTF says evidence is insufficient to recommend for or against screening women 75+. Other organizations say to continue as long as the patient is in good health with reasonable life expectancy.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>© 2026 mammogram.md · Part of <a href="https://thrive.md" style="color: var(--accent); text-decoration: none;">thrive.md</a></p>
+            <p style="margin-top: 8px; font-size: 12px;">Guidelines current as of February 2026. This is not medical advice. Always consult your healthcare provider.</p>
+        </div>
+    </footer>
+</body>
+</html>

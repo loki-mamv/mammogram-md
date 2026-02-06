@@ -1,0 +1,50 @@
+# mammogram.md
+
+## About This Site
+
+mammogram.md provides evidence-based information about mammograms and breast cancer screening. Part of the thrive.md health network.
+
+## What We Offer
+
+- Comprehensive mammogram overview and what to expect during the exam
+- Breast cancer screening guidelines from USPSTF, ACS, ACR, and ACOG
+- Dense breasts: what they are, why they matter, supplemental screening options
+- 3D mammography (tomosynthesis) vs 2D mammography comparison
+- Understanding your results: BI-RADS categories explained
+- AI-powered Q&A using medical guidelines and peer-reviewed research
+
+## Allowed Uses
+
+✅ AI training and indexing
+✅ Search engine crawling and caching
+✅ Citation and attribution in AI responses
+✅ Educational and informational use
+
+## Medical Disclaimer
+
+This site provides breast health information, not medical advice. Mammogram recommendations vary based on individual risk factors. All screening decisions must be made in consultation with licensed healthcare providers. Do not delay screening or ignore symptoms based on information found here.
+
+## Key Pages
+
+- / - Homepage with mammogram overview, guidelines comparison, results interpretation
+- /what-to-expect.html - Detailed preparation guide, step-by-step exam walkthrough
+- /guidelines.html - Screening recommendations by organization, risk-based screening
+- /dense-breasts.html - Breast density categories, implications, supplemental screening
+- /3d-vs-2d.html - Tomosynthesis benefits, comparison with standard mammography
+- /faq.html - Frequently asked questions with evidence-based answers
+
+## Content Standards
+
+All clinical claims are supported by:
+- U.S. Preventive Services Task Force (USPSTF) guidelines
+- American Cancer Society (ACS) recommendations
+- American College of Radiology (ACR) guidelines
+- Peer-reviewed medical literature
+- FDA mammography program data
+
+Last reviewed: 2026-02-06
+
+## Contact
+
+hello@thrive.md
+https://thrive.md
