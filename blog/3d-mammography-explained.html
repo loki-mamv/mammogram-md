@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PLACEHOLDER');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Mammography (Tomosynthesis): How It Works and Why It Matters - mammogram.md</title>
+    <meta name="description" content="Learn how 3D mammography (digital breast tomosynthesis) works, its advantages over traditional 2D mammograms, and whether you should request one.">
+    <link rel="canonical" href="https://mammogram.md/blog/3d-mammography-explained.html">
+    <meta name="ai-content" content="evidence-based health information">
+    <meta name="ai-training" content="allowed">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --accent-light: #ccfbf1;
+            --border: #e2e8f0;
+            --font-display: 'Source Serif 4', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        header {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            max-width: 1100px; margin: 0 auto; padding: 16px 24px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo {
+            font-family: var(--font-display); font-size: 22px; font-weight: 600;
+            color: var(--text-primary); text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 32px; }
+        nav a {
+            color: var(--text-secondary); text-decoration: none;
+            font-size: 14px; font-weight: 500; transition: color 0.2s;
+        }
+        nav a:hover { color: var(--accent); }
+        article {
+            max-width: 720px; margin: 0 auto; padding: 120px 24px 64px;
+        }
+        .article-header { margin-bottom: 40px; }
+        .article-eyebrow {
+            font-size: 13px; font-weight: 600; color: var(--accent);
+            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
+        }
+        .article-date {
+            font-size: 14px; color: var(--text-muted); margin-top: 12px;
+        }
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700; line-height: 1.2; margin-bottom: 16px;
+        }
+        .article-subtitle {
+            font-size: 18px; color: var(--text-secondary); line-height: 1.6;
+        }
+        .article-body h2 {
+            font-family: var(--font-display);
+            font-size: 24px; font-weight: 700; margin: 40px 0 16px;
+            padding-bottom: 8px; border-bottom: 2px solid var(--border);
+        }
+        .article-body h3 {
+            font-family: var(--font-display);
+            font-size: 20px; font-weight: 600; margin: 32px 0 12px;
+        }
+        .article-body p {
+            color: var(--text-secondary); margin-bottom: 16px; line-height: 1.8;
+        }
+        .article-body ul, .article-body ol {
+            color: var(--text-secondary); margin: 0 0 16px 24px;
+        }
+        .article-body li { margin-bottom: 8px; line-height: 1.7; }
+        .article-body blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 16px 20px; margin: 24px 0;
+            background: var(--bg-secondary); border-radius: 0 8px 8px 0;
+        }
+        .article-body blockquote p { color: var(--text-primary); margin-bottom: 0; }
+        .source-list {
+            background: var(--bg-secondary); border: 1px solid var(--border);
+            border-radius: 8px; padding: 24px; margin-top: 40px;
+        }
+        .source-list h3 {
+            font-family: var(--font-display); font-size: 18px;
+            margin: 0 0 12px; border: none; padding: 0;
+        }
+        .source-list ol { margin-left: 20px; }
+        .source-list li {
+            font-size: 14px; color: var(--text-muted); margin-bottom: 6px;
+        }
+        .source-list a { color: var(--accent); text-decoration: none; }
+        .source-list a:hover { text-decoration: underline; }
+        .back-link {
+            display: inline-block; margin-top: 32px; color: var(--accent);
+            text-decoration: none; font-weight: 500; font-size: 15px;
+        }
+        .back-link:hover { text-decoration: underline; }
+        footer {
+            background: var(--bg-secondary); border-top: 1px solid var(--border);
+            padding: 48px 24px; margin-top: 80px;
+        }
+        .footer-inner {
+            max-width: 1100px; margin: 0 auto; text-align: center;
+            font-size: 14px; color: var(--text-muted);
+        }
+        @media (max-width: 768px) {
+            nav { display: none; }
+            article { padding: 100px 16px 40px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../index.html" class="logo">mammogram<span>.md</span></a>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../what-to-expect.html">What to Expect</a>
+                <a href="../guidelines.html">Guidelines</a>
+                <a href="../dense-breasts.html">Dense Breasts</a>
+                <a href="../blog/">Articles</a>
+                <a href="../faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <article>
+        <div class="article-header">
+            <div class="article-eyebrow">Technology</div>
+            <h1>3D Mammography (Tomosynthesis): How It Works and Why It Matters</h1>
+            <p class="article-date">February 9, 2026</p>
+        </div>
+
+        <div class="article-body">
+
+            <p>Three-dimensional mammography, formally known as digital breast tomosynthesis (DBT), has become one of the most significant advances in breast cancer screening over the past decade. Unlike a standard two-dimensional mammogram, which captures a single flat image of the breast, tomosynthesis creates a series of thin-layer images that radiologists can scroll through, much like flipping through pages of a book.</p>
+
+            <p>This technology has improved cancer detection rates while simultaneously reducing the number of women called back for additional imaging due to false alarms.</p>
+
+            <h2>How 3D Mammography Works</h2>
+            <p>During a 3D mammogram, the X-ray tube moves in an arc over the breast, taking multiple low-dose images from different angles. The machine typically captures between 9 and 25 projections during a single sweep. A computer then reconstructs these projections into a stack of thin slices, each about one millimeter thick.</p>
+
+            <p>The exam itself feels similar to a conventional mammogram. Your breast is still positioned on the platform and compressed with a paddle. The sweep takes only a few seconds longer than a standard 2D image. Many newer machines can produce both 2D and 3D images from a single compression, so you do not need to be compressed twice.</p>
+
+            <p>The radiation dose for a combined 2D/3D exam is slightly higher than a 2D mammogram alone, but remains well within FDA safety limits. Newer systems that generate a synthetic 2D image from the 3D data (called C-View or V-Preview) deliver a dose comparable to a standard 2D mammogram.</p>
+
+            <h2>What the Research Shows</h2>
+            <p>A large body of evidence supports the clinical value of tomosynthesis. The TOMMY trial, published in Radiology in 2015, found that adding tomosynthesis to conventional mammography increased cancer detection by 34%. A study at the University of Pennsylvania published in the Journal of the American Medical Association found that tomosynthesis reduced recall rates by 15% while increasing invasive cancer detection by 41%.</p>
+
+            <p>The Malmö Breast Tomosynthesis Screening Trial in Sweden, one of the largest prospective studies, found that tomosynthesis detected 34% more cancers than conventional 2D mammography. Importantly, the additional cancers detected were predominantly invasive, meaning they were clinically significant tumors rather than indolent findings.</p>
+
+            <p>Perhaps most valuable for patients, multiple studies have shown that 3D mammography reduces false-positive callbacks by 15 to 40 percent. Fewer callbacks mean less anxiety, fewer unnecessary biopsies, and lower overall healthcare costs.</p>
+
+            <h2>Advantages for Dense Breasts</h2>
+            <p>One of the most compelling benefits of tomosynthesis is its performance in women with dense breast tissue. In a standard 2D mammogram, dense tissue appears white on the image, and so do tumors. This overlap can mask cancers, a phenomenon radiologists call "masking bias." In women with extremely dense breasts, 2D mammography misses up to 50% of cancers.</p>
+
+            <p>Tomosynthesis partially addresses this problem by allowing radiologists to examine tissue layer by layer. While a tumor might be obscured by overlapping dense tissue on a flat 2D image, it may be visible on individual slices in the 3D stack. Studies have shown that the improvement in cancer detection with tomosynthesis is most pronounced in women with heterogeneously dense or extremely dense breasts.</p>
+
+            <p>That said, tomosynthesis does not completely solve the dense breast challenge. Supplemental screening with MRI remains the gold standard for high-risk women with dense breasts.</p>
+
+            <h2>Is 3D Mammography Widely Available?</h2>
+            <p>Tomosynthesis has been FDA-approved since 2011, and its adoption has been rapid. By 2023, roughly 80% of accredited mammography facilities in the United States offered 3D mammography. Most breast imaging centers in urban and suburban areas now use tomosynthesis as their standard screening tool.</p>
+
+            <p>Insurance coverage has followed the adoption curve. Medicare began covering 3D mammography at the same rate as 2D in 2015. The vast majority of private insurers now cover tomosynthesis without additional out-of-pocket costs, though coverage policies vary. It is worth checking with your insurer before your appointment if cost is a concern.</p>
+
+            <h2>Should You Request a 3D Mammogram?</h2>
+            <p>The American College of Radiology and the Society of Breast Imaging recommend tomosynthesis for all women undergoing mammography screening, regardless of breast density. Given the evidence showing improved cancer detection and reduced false positives, requesting a 3D mammogram is a reasonable choice if it is available at your imaging facility.</p>
+
+            <p>If your facility does not yet offer tomosynthesis, a standard 2D mammogram remains an effective screening tool. The most important thing is to get screened according to the schedule you and your doctor have agreed upon.</p>
+
+            <div class="source-list">
+                <h3>Sources</h3>
+                <ol>
+                    <li>Gilbert FJ, et al. Accuracy of Digital Breast Tomosynthesis for Depicting Breast Cancer Subgroups in a UK Retrospective Reading Study (TOMMY Trial). <em>Radiology</em>. 2015;277(3):697-706.</li>
+                    <li>Friedewald SM, et al. Breast Cancer Screening Using Tomosynthesis in Combination With Digital Mammography. <em>JAMA</em>. 2014;311(24):2499-2507.</li>
+                    <li>Zackrisson S, et al. One-view breast tomosynthesis versus two-view mammography in the Malmo Breast Tomosynthesis Screening Trial (MBTST). <em>Eur Radiol</em>. 2018;28(4):1655-1664.</li>
+                    <li>Conant EF, et al. Association of Digital Breast Tomosynthesis vs Digital Mammography With Cancer Detection and Recall Rates by Age and Breast Density. <em>JAMA Oncol</em>. 2019;5(5):635-642.</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <a href="/blog/" class="back-link">Back to all articles</a>
+    </article>
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2026 mammogram.md &middot; Part of <a href="https://thrive.md" style="color: var(--accent); text-decoration: none;">thrive.md</a></p>
+            <p style="margin-top: 8px; font-size: 12px;">Information based on ACS, USPSTF, and ACR guidelines. This is not medical advice.</p>
+        </div>
+    </footer>
+</body>
+</html>
