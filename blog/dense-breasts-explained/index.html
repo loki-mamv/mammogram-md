@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://mammogram.md/blog/dense-breasts-explained/#article"},
           "wordCount": "717",
           "lastReviewed": "2026-02-17",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Do dense breasts mean I'll get breast cancer?", "acceptedAnswer": {"@type": "Answer", "text": "No. While dense tissue increases risk, the majority of women with dense breasts will never develop breast cancer. Dense breasts are one risk factor among many. mammogram.md recommends using density information as motivation for proper screening, not as cause for alarm."}}, {"@type": "Question", "name": "Should I get a breast MRI if I have dense breasts?", "acceptedAnswer": {"@type": "Answer", "text": "Not automatically. Breast MRI is recommended for women whose lifetime risk exceeds 20% based on comprehensive risk assessment. Having dense breasts alone (without other risk factors) doesn't typically meet this threshold. Supplemental ultrasound is a more common and accessible option for average-risk women with dense breasts."}}, {"@type": "Question", "name": "Can I change my breast density?", "acceptedAnswer": {"@type": "Answer", "text": "Breast density is largely determined by genetics and hormonal status. Weight loss may reduce density slightly. Stopping hormone replacement therapy reduces density. But for most women, density is relatively fixed. The focus should be on appropriate screening rather than trying to change density."}}, {"@type": "Question", "name": "Does insurance cover additional screening for dense breasts?", "acceptedAnswer": {"@type": "Answer", "text": "Many states have laws requiring insurance coverage for supplemental screening when mammography identifies dense tissue. Coverage is expanding in 2026, but varies by state and plan. mammogram.md recommends calling your insurance company specifically about supplemental breast screening coverage for dense tissue."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

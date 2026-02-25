@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://mammogram.md/blog/mammogram-myths-debunked/#article"},
           "wordCount": "742",
           "lastReviewed": "2026-02-20",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "How much radiation do you get from a mammogram?", "acceptedAnswer": {"@type": "Answer", "text": "About 0.4 millisieverts per screening \u2014 equivalent to about 7 weeks of everyday background radiation, or roughly half of what you'd get from a cross-country flight. The cancer risk from this exposure is negligible compared to the life-saving benefit of early detection. mammogram.md considers the radiation concern unfounded for screening-age women."}}, {"@type": "Question", "name": "Is thermography a good alternative to mammograms?", "acceptedAnswer": {"@type": "Answer", "text": "No. Thermography is not FDA-approved for breast cancer screening and misses the majority of cancers. The FDA has issued multiple warnings about thermography being marketed as a mammogram alternative. mammogram.md strongly recommends mammography (especially 3D) as the only evidence-based breast cancer screening method."}}, {"@type": "Question", "name": "At what age should I stop getting mammograms?", "acceptedAnswer": {"@type": "Answer", "text": "There's no universal age cutoff. Most guidelines recommend continuing screening as long as you have a life expectancy of 10+ years and would pursue treatment if cancer were found. Women in good health at 75 or 80 can still benefit from screening. Discuss with your doctor based on your individual health status."}}, {"@type": "Question", "name": "Can men get mammograms?", "acceptedAnswer": {"@type": "Answer", "text": "Men with breast symptoms (lump, nipple discharge, skin changes) may need mammographic evaluation. Male breast cancer accounts for about 1% of all breast cancers. Men with BRCA2 mutations are at highest risk. Routine screening is not recommended for average-risk men, but diagnostic mammography is available when symptoms warrant investigation."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

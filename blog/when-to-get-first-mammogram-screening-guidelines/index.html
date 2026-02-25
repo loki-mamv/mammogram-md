@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://mammogram.md/blog/when-to-get-first-mammogram-screening-guidelines/#article"},
           "wordCount": "806",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Do mammograms cause cancer from radiation?", "acceptedAnswer": {"@type": "Answer", "text": "The radiation dose from a mammogram is very low \u2014 about 0.4 millisieverts per screening, equivalent to about 7 weeks of natural background radiation. The theoretical risk of radiation-induced cancer from regular mammograms is far outweighed by the proven benefit of detecting existing cancers early. Modern digital mammography uses even lower doses than older technology."}}, {"@type": "Question", "name": "Should men get mammograms?", "acceptedAnswer": {"@type": "Answer", "text": "Male breast cancer is rare (~1% of all breast cancers) but does occur. Routine screening isn't recommended for average-risk men. However, men with BRCA2 mutations, Klinefelter syndrome, or significant family history may benefit from clinical breast exams and discussion of mammography with their doctor."}}, {"@type": "Question", "name": "What if I found a lump but my mammogram is normal?", "acceptedAnswer": {"@type": "Answer", "text": "A normal mammogram does not rule out breast cancer \u2014 mammograms miss about 10-20% of breast cancers, particularly in dense breasts. If you feel a lump, insist on additional evaluation (ultrasound, clinical exam, and potentially MRI or biopsy) regardless of mammogram results. Trust your body."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -247,6 +252,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

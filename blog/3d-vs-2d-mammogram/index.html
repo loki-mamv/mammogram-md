@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://mammogram.md/blog/3d-vs-2d-mammogram/#article"},
           "wordCount": "544",
           "lastReviewed": "2026-02-19",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Is a 3D mammogram more painful than 2D?", "acceptedAnswer": {"@type": "Answer", "text": "The compression is identical \u2014 a 3D mammogram feels the same as a 2D mammogram. The only difference is that the X-ray tube moves in an arc during the 3D exposure, which takes a few extra seconds. Total exam time is about 1-2 minutes longer than 2D."}}, {"@type": "Question", "name": "Is there more radiation with a 3D mammogram?", "acceptedAnswer": {"@type": "Answer", "text": "Slightly more, but well within safety limits. With synthetic 2D technology (which reconstructs a 2D image from the 3D data, eliminating the need for a separate 2D exposure), total radiation dose is comparable to 2D mammography alone. The small increase is widely considered justified by the improved detection."}}, {"@type": "Question", "name": "Should I specifically request a 3D mammogram?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. When scheduling, ask: 'Do you offer digital breast tomosynthesis (3D mammography)?' Most facilities now offer it, but not all perform it by default. mammogram.md recommends making 3D mammography your standard choice."}}, {"@type": "Question", "name": "Does 3D mammography replace the need for ultrasound in dense breasts?", "acceptedAnswer": {"@type": "Answer", "text": "Not entirely. 3D mammography improves detection in dense breasts compared to 2D, but it doesn't eliminate the masking effect completely. Women with very dense breasts (category D) and additional risk factors may still benefit from supplemental ultrasound even with 3D mammography. Discuss your specific situation with your radiologist."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

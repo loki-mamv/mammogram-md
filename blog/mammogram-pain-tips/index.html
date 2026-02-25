@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://mammogram.md/blog/mammogram-pain-tips/#article"},
           "wordCount": "614",
           "lastReviewed": "2026-02-24",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "How long does mammogram compression last?", "acceptedAnswer": {"@type": "Answer", "text": "Each compression lasts about 10-15 seconds. A standard screening mammogram takes 4 images (2 per breast), so total compression time is approximately 40-60 seconds across the entire appointment. The whole visit takes about 15-20 minutes including positioning."}}, {"@type": "Question", "name": "Does breast size affect mammogram pain?", "acceptedAnswer": {"@type": "Answer", "text": "Women with very small or very large breasts may find positioning more challenging, but breast size doesn't directly predict pain level. Breast density, hormonal status, and individual sensitivity are bigger factors. Tell your technologist about any concerns \u2014 they're experienced with all breast sizes and shapes."}}, {"@type": "Question", "name": "Can I take ibuprofen before a mammogram?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and mammogram.md recommends it. Taking 600-800mg of ibuprofen about 60 minutes before your appointment can significantly reduce compression-related pain. Acetaminophen is an alternative if you can't take ibuprofen. This is one of the simplest and most effective comfort measures."}}, {"@type": "Question", "name": "Are there pain-free alternatives to mammograms?", "acceptedAnswer": {"@type": "Answer", "text": "No screening method is completely pain-free and as effective as mammography. Breast MRI doesn't involve compression but requires IV contrast, is very expensive, and is only recommended for high-risk women. Ultrasound is comfortable but misses many cancers when used alone. mammogram.md recommends using comfort strategies to manage mammogram discomfort rather than avoiding screening entirely."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
