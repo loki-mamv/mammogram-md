@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6H85DH0R8S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6H85DH0R8S');
+</script>
+<script>
+  // AI answer-engine attribution: capture utm/app/referrer signals on landing
+  (function(){
+    try {
+      var q = new URLSearchParams(location.search);
+      var ref = document.referrer || '';
+      var refHost = '';
+      if (ref) { try { refHost = new URL(ref).hostname; } catch(e) {} }
+      var ua = navigator.userAgent || '';
+      var hint = /ChatGPT|OAI-/i.test(ua) ? 'chatgpt-app' : /Perplexity/i.test(ua) ? 'perplexity-app' : /Claude/i.test(ua) ? 'claude-app' : '';
+      gtag('event', 'ai_attribution', {
+        ai_utm: q.get('utm_source') || '(none)',
+        ai_ref: refHost || '(direct)',
+        ai_ua_hint: hint || '(none)'
+      });
+    } catch(e) {}
+  })();
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can AI Read Mammograms as Well as a Radiologist? &mdash; mammogram.md</title>
+    <meta name="description" content="In Sweden&#x27;s MASAI trial, radiologists using AI found more cancers with 44% less reading work. What AI does, FDA clearance, and the $40 add-on fee.">
+    <meta name="author" content="thrive.md Editorial Team">
+    <link rel="canonical" href="https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/">
+    <meta property="og:title" content="Can AI Read Mammograms as Well as a Radiologist? &mdash; mammogram.md">
+    <meta property="og:description" content="In Sweden&#x27;s MASAI trial, radiologists using AI found more cancers with 44% less reading work. What AI does, FDA clearance, and the $40 add-on fee.">
+    <meta property="og:site_name" content="mammogram.md">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Can AI Read Mammograms as Well as a Radiologist? &mdash; mammogram.md">
+    <meta name="twitter:description" content="In Sweden&#x27;s MASAI trial, radiologists using AI found more cancers with 44% less reading work. What AI does, FDA clearance, and the $40 add-on fee.">
+    <meta name="ai-content" content="allowed">
+    <meta name="ai-topic" content="AI mammography, artificial intelligence breast screening, MASAI trial, PRAIM study, Transpara, FDA AI-enabled devices, radiologist, AI mammogram fee">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Article",
+        "MedicalWebPage"
+      ],
+      "@id": "https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/#article",
+      "headline": "Can AI Read Mammograms as Well as a Radiologist?",
+      "description": "In Sweden's MASAI trial, radiologists using AI found more cancers with 44% less reading work. What AI does, FDA clearance, and the $40 add-on fee.",
+      "url": "https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-10",
+      "author": {
+        "@type": "Organization",
+        "name": "thrive.md Editorial Team",
+        "url": "https://thrive.md"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "mammogram.md",
+        "url": "https://mammogram.md"
+      },
+      "isPartOf": {
+        "@id": "https://mammogram.md/#website"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/#article"
+      },
+      "wordCount": "1111",
+      "contributor": {
+        "@type": "Person",
+        "name": "Agustin Arrieta, MD",
+        "jobTitle": "Otolaryngologist",
+        "medicalSpecialty": "Otolaryngologic"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I ask my imaging center not to use AI on my mammogram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can ask. Some centers run AI on every exam as part of their standard workflow, while others offer it only as an opt-in. Ask before your appointment so you know how your center handles it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does AI help with dense breasts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the 2026 MASAI analysis, the gain in sensitivity with AI held across breast density groups. AI still reads the same images, though, so dense tissue can hide cancers from both the software and the radiologist. Some women with dense breasts are offered extra imaging."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will AI make me more likely to get a callback?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The large studies did not show that. In MASAI, recall rates were 2.2% with AI and 2.0% without, and false positives were the same. In the German PRAIM study, recalls were slightly lower in the AI group."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Medicare pay for AI mammogram analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As of KFF Health News reporting in January 2024, no billing codes existed for AI mammogram reads, so insurers did not pay for them. That is why some centers charged patients directly. Ask your plan and your imaging center for current rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AI used on 3D mammograms too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The FDA list includes tools for 3D tomosynthesis, such as Lunit INSIGHT DBT, as well as tools for standard 2D images. Ask your center which images its software reads."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --border: #e2e8f0;
+            --font-display: 'Source Serif 4', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: #fafaf9; color: var(--text-primary); line-height: 1.7; font-size: 16px; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-dark); text-decoration: underline; }
+
+        /* Header */
+        .site-header { border-bottom: 1px solid var(--border); padding: 1rem 0; background: #fff; }
+        .site-header .container { display: flex; align-items: center; justify-content: space-between; }
+        .site-logo { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; color: var(--accent); }
+        .site-nav a { margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.9rem; }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+        .container-wide { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Article */
+        .article-header { padding: 3rem 0 2rem; }
+        .article-header h1 { font-family: var(--font-display); font-size: 2.25rem; line-height: 1.25; font-weight: 700; margin-bottom: 1rem; }
+        .article-meta { color: var(--text-muted); font-size: 0.875rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+        .article-meta time, .article-meta .reading-time { display: flex; align-items: center; gap: 0.35rem; }
+
+        /* TOC */
+        .toc { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem 1.5rem; margin-bottom: 2rem; }
+        .toc-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem; color: var(--text-primary); }
+        .toc ol { padding-left: 1.25rem; }
+        .toc li { margin-bottom: 0.35rem; font-size: 0.9rem; }
+        .toc a { color: var(--text-secondary); }
+
+        /* Content */
+        .article-body { padding-bottom: 2rem; }
+        .article-body h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; margin: 2rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+        .article-body h3 { font-size: 1.2rem; font-weight: 600; margin: 1.5rem 0 0.75rem; }
+        .article-body p { margin-bottom: 1.25rem; }
+        .article-body ul, .article-body ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+        .article-body li { margin-bottom: 0.5rem; }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 0.75rem 1rem; background: var(--bg-secondary); margin-bottom: 1.25rem; font-style: italic; color: var(--text-secondary); }
+        .article-body .source-cite { font-size: 0.8rem; color: var(--text-muted); }
+        .article-body .source-cite a { color: var(--accent); }
+
+        /* FAQ */
+        .faq-section { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 2rem; margin: 2rem 0; }
+        .faq-section h2 { border: none; margin-top: 0; padding-top: 0; }
+        .faq-item { margin-bottom: 1.5rem; }
+        .faq-item:last-child { margin-bottom: 0; }
+        .faq-item h3 { font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--accent-dark); }
+        .faq-item p { color: var(--text-secondary); font-size: 0.95rem; }
+
+        /* Share */
+        .share-bar { display: flex; gap: 0.75rem; margin: 2rem 0; padding: 1.5rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); align-items: center; }
+        .share-bar span { font-size: 0.875rem; color: var(--text-muted); }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.85rem; font-weight: 500; border: 1px solid var(--border); color: var(--text-secondary); background: #fff; cursor: pointer; transition: all 0.2s; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+        /* Related */
+        .related-posts { margin: 2rem 0; }
+        .related-posts h2 { font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 1rem; border: none; padding: 0; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+        .related-card { border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; background: #fff; transition: border-color 0.2s; }
+        .related-card:hover { border-color: var(--accent); }
+        .related-card h3 { font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .related-card p { font-size: 0.8rem; color: var(--text-muted); }
+
+        /* Cross-links */
+        .cross-links { margin: 2rem 0; padding: 1.5rem; background: var(--bg-secondary); border-radius: 8px; }
+        .cross-links h3 { font-size: 0.95rem; margin-bottom: 0.75rem; color: var(--text-secondary); }
+        .cross-links-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .cross-links-list a { padding: 0.35rem 0.75rem; border: 1px solid var(--border); border-radius: 20px; font-size: 0.8rem; color: var(--text-secondary); background: #fff; }
+        .cross-links-list a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+        /* Disclaimer */
+        .disclaimer { margin: 2rem 0; padding: 1.25rem; background: #fefce8; border: 1px solid #fde68a; border-radius: 8px; font-size: 0.8rem; color: #92400e; line-height: 1.6; }
+
+        /* Footer */
+        .site-footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 2rem; text-align: center; }
+        .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-bottom: 1rem; }
+        .footer-links a { font-size: 0.8rem; color: var(--text-muted); }
+        .footer-copy { font-size: 0.75rem; color: var(--text-muted); }
+
+        @media (max-width: 640px) {
+            .article-header h1 { font-size: 1.75rem; }
+            .related-grid { grid-template-columns: 1fr; }
+        }
+
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container-wide">
+            <a href="https://mammogram.md/" class="site-logo">mammogram.md</a>
+            <nav class="site-nav">
+                <a href="https://mammogram.md/">Home</a>
+                <a href="https://mammogram.md/blog/">Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="container">
+            <header class="article-header">
+                <h1>Can AI Read Mammograms as Well as a Radiologist?</h1>
+                <div class="article-meta">
+                    <time datetime="2026-11-10">November 10, 2026</time>
+                    <span class="reading-time">6 min read</span>
+                    <span>By thrive.md Editorial Team</span>
+                </div>
+                    <div class="medical-reviewer"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span>Medical advisor: Agustin Arrieta, MD &mdash; Otolaryngologist (ENT), South Florida</span></div>
+            </header>
+
+            <nav class="toc"><div class="toc-title">Table of Contents</div><ol><li><a href="#what-did-the-swedish-masai-trial-find">What did the Swedish MASAI trial find?</a></li><li><a href="#what-did-the-german-praim-study-show">What did the German PRAIM study show?</a></li><li><a href="#does-ai-replace-the-radiologist">Does AI replace the radiologist?</a></li><li><a href="#are-mammography-ai-tools-fda-cleared">Are mammography AI tools FDA-cleared?</a></li><li><a href="#will-i-pay-extra-for-an-ai-read">Will I pay extra for an AI read?</a></li><li><a href="#what-are-the-limits-of-the-evidence">What are the limits of the evidence?</a></li><li><a href="#the-bottom-line">The bottom line</a></li></ol></nav>
+
+            <div class="article-body">
+<p><strong>The short answer:</strong> On its own, not yet proven. Used alongside radiologists, yes, and sometimes better. In the Swedish MASAI trial (<a href="https://pubmed.ncbi.nlm.nih.gov/41620232/">The Lancet, January 2026</a>), AI-supported screening found more cancers, kept specificity the same, and cut radiologist reading work. A radiologist still reads and signs every report.</p>
+
+<h2 id="what-did-the-swedish-masai-trial-find">What did the Swedish MASAI trial find?</h2>
+<p>MASAI (Mammography Screening with Artificial Intelligence) is the first large randomized trial of AI in breast screening. Women aged 40 to 80 at four Swedish screening sites were randomly assigned to one of two groups. One group got standard double reading, where two radiologists read each exam. The other got AI-supported reading.</p>
+<p>In the AI group, the software (Transpara) gave each exam a risk score from 1 to 10. Exams scored 1 to 9 went to one radiologist. Exams scored 10 went to two radiologists. Radiologists also saw the AI risk score and, for higher scores, marks on suspicious spots.</p>
+<p>The first safety report, in <a href="https://pubmed.ncbi.nlm.nih.gov/37541274/">Lancet Oncology in 2023</a>, covered 80,033 women. Results:</p>
+<ul>
+<li>Cancer detection was 6.1 per 1,000 women with AI versus 5.1 per 1,000 with standard reading.</li>
+<li>Recall rates were similar: 2.2% with AI and 2.0% without.</li>
+<li>The false positive rate was 1.5% in both groups.</li>
+<li>Radiologists did 44.3% fewer screen readings with AI support.</li>
+</ul>
+<p>The main result came in <a href="https://pubmed.ncbi.nlm.nih.gov/41620232/">The Lancet in 2026</a>, with 105,934 women. This analysis looked at interval cancers. These are cancers found between scheduled screens, which the mammogram missed or which grew fast. The rate was 1.55 per 1,000 with AI and 1.76 per 1,000 without, which met the trial's non-inferiority goal. Sensitivity was 80.5% with AI versus 73.8% without. Specificity was 98.5% in both groups. The AI group also had fewer invasive and larger interval cancers.</p>
+
+<h2 id="what-did-the-german-praim-study-show">What did the German PRAIM study show?</h2>
+<p>PRAIM was a real-world study, not a randomized trial. It ran inside Germany's national screening program at 12 sites, for women aged 50 to 69. Radiologists chose for themselves whether to use the AI tool on each exam. From July 2021 to February 2023, 119 radiologists screened 463,094 women, 260,739 of them with AI support.</p>
+<p>Per the <a href="https://pubmed.ncbi.nlm.nih.gov/39775040/">2025 report in Nature Medicine</a>:</p>
+<ul>
+<li>Cancer detection was 6.7 per 1,000 with AI versus 5.7 per 1,000 without, a 17.6% increase.</li>
+<li>Recalls were 37.4 per 1,000 with AI versus 38.3 per 1,000 without, so AI did not raise callbacks.</li>
+<li>When AI-supported readers recalled a woman, 17.9% of recalls led to a cancer diagnosis, versus 14.9% without AI.</li>
+</ul>
+<p>Two cautions apply. Because radiologists picked when to use AI, the groups were not randomly assigned. The AI company, Vara, also funded the study and took part in its design and writing.</p>
+
+<h2 id="does-ai-replace-the-radiologist">Does AI replace the radiologist?</h2>
+<p>No. In both studies, AI worked with radiologists, not instead of them. In MASAI, AI decided whether an exam needed one or two human readers and pointed out areas to look at. In PRAIM, AI supported a double reading done by radiologists.</p>
+<p>US rules also keep a doctor in charge. Under the federal Mammography Quality Standards Act rules (<a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-900/subpart-B/section-900.12">21 CFR 900.12</a>), every mammogram report must name the interpreting physician. That physician must be licensed and meet training and reading-volume standards. A breast imager quoted by <a href="https://kffhealthnews.org/news/article/artificial-intelligence-mammography-extra-cost/">KFF Health News</a> put it simply: an expert breast imager still interprets your mammogram.</p>
+<p>So the fair question is not "AI or radiologist." It is whether a radiologist with AI does better than a radiologist without it. The two largest studies so far say yes, at least in European double-reading programs.</p>
+
+<h2 id="are-mammography-ai-tools-fda-cleared">Are mammography AI tools FDA-cleared?</h2>
+<p>Yes, many are. The FDA keeps a <a href="https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices">list of AI-enabled medical devices</a> that have met its premarket requirements. Breast imaging tools on the list include MammoScreen (Therapixel), Saige-Dx (DeepHealth), Lunit INSIGHT MMG and Lunit INSIGHT DBT, and Genius AI Detection 2.0 (Hologic). Several received new versions in 2025 and 2026. KFF Health News reported in January 2024 that the FDA had authorized roughly two dozen AI products to help detect and diagnose cancer on mammograms.</p>
+<p>FDA clearance means a tool met the agency's requirements for a stated use. It does not mean the tool reads mammograms alone. The FDA also notes that its list is not a complete resource of every AI-enabled device.</p>
+
+<h2 id="will-i-pay-extra-for-an-ai-read">Will I pay extra for an AI read?</h2>
+<p>You might. <a href="https://kffhealthnews.org/news/article/artificial-intelligence-mammography-extra-cost/">KFF Health News reported in January 2024</a> that RadNet, which runs more than 350 imaging centers, charged patients $40 for AI analysis of a screening mammogram. About 35% of its patients chose to pay. Insurers did not cover the fee, because no billing codes existed for AI mammogram reads. Other practices, such as those tied to Mass General, used AI without charging patients.</p>
+<p>Prices and policies change, so ask before your appointment. If you want to compare centers, these questions help:</p>
+<ol>
+<li>Does this center use AI on screening mammograms? Which product?</li>
+<li>Is AI used on every exam, or only if I opt in?</li>
+<li>Is there an extra charge, and will my insurance pay any of it?</li>
+<li>Does a radiologist still read my images and sign the report? (The answer should be yes.)</li>
+<li>Are my images 3D (tomosynthesis) or 2D? Some AI tools work on one type only.</li>
+</ol>
+
+<h2 id="what-are-the-limits-of-the-evidence">What are the limits of the evidence?</h2>
+<p>The results are strong, but they do not cover every setting. MASAI used one AI product in one country. Its radiologists compared AI support with double reading, which is the norm in Sweden and Germany. US screening often works differently, so results may not carry over exactly.</p>
+<p>AI also does not fix the limits of the mammogram itself. Dense tissue can hide cancers, and AI reads the same images a radiologist does. Read more in our guide to <a href="/blog/dense-breasts-explained/">dense breasts</a> and our look at <a href="/blog/how-accurate-are-mammograms/">how accurate mammograms are</a>. Women at high risk may need a supplemental breast MRI, which <a href="https://mri.md/">mri.md</a> explains step by step.</p>
+<p>Finally, finding more cancers is not the whole goal. Some extra finds in MASAI were in situ cancers, an early stage that may never cause harm. Neither study measured whether AI screening lowers deaths from breast cancer.</p>
+
+<h2 id="the-bottom-line">The bottom line</h2>
+<p>AI does not read mammograms in place of a radiologist. Large studies show that radiologists using AI found more cancers, with no rise in false alarms and less reading work. In the US, a doctor must still interpret and sign your report. If your center offers AI for a fee, ask what you get. If you get a callback, our <a href="/blog/mammogram-callback-guide/">callback guide</a> explains what comes next.</p>
+<p><em>Last updated: November 2026. This article is for informational purposes only and does not constitute medical advice. Talk with your doctor or imaging center about your own screening plan.</em></p>
+            </div>
+
+            <div class="faq-section"><h2>Frequently Asked Questions</h2><div class="faq-item"><h3>Can I ask my imaging center not to use AI on my mammogram?</h3><p>You can ask. Some centers run AI on every exam as part of their standard workflow, while others offer it only as an opt-in. Ask before your appointment so you know how your center handles it.</p></div><div class="faq-item"><h3>Does AI help with dense breasts?</h3><p>In the 2026 MASAI analysis, the gain in sensitivity with AI held across breast density groups. AI still reads the same images, though, so dense tissue can hide cancers from both the software and the radiologist. Some women with dense breasts are offered extra imaging.</p></div><div class="faq-item"><h3>Will AI make me more likely to get a callback?</h3><p>The large studies did not show that. In MASAI, recall rates were 2.2% with AI and 2.0% without, and false positives were the same. In the German PRAIM study, recalls were slightly lower in the AI group.</p></div><div class="faq-item"><h3>Does Medicare pay for AI mammogram analysis?</h3><p>As of KFF Health News reporting in January 2024, no billing codes existed for AI mammogram reads, so insurers did not pay for them. That is why some centers charged patients directly. Ask your plan and your imaging center for current rules.</p></div><div class="faq-item"><h3>Is AI used on 3D mammograms too?</h3><p>Yes. The FDA list includes tools for 3D tomosynthesis, such as Lunit INSIGHT DBT, as well as tools for standard 2D images. Ask your center which images its software reads.</p></div></div>
+
+            <div class="share-bar">
+                <span>Share:</span>
+                <a class="share-btn" href="https://twitter.com/intent/tweet?text=Can%20AI%20Read%20Mammograms%20as%20Well%20as%20a%20Radiologist%3F&url=https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/" target="_blank" rel="noopener">&#120143; Twitter</a>
+                <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://mammogram.md/blog/ai-mammogram-reading-vs-radiologist/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+
+            <div class="cross-links">
+                <h3>Explore Related Health Topics</h3>
+                <div class="cross-links-list">
+                    <a href="https://mri.md/">mri.md</a><a href="https://thyroid.md/">thyroid.md</a><a href="https://colonoscopy.md/">colonoscopy.md</a><a href="https://symptom.md/">symptom.md</a><a href="https://thrive.md/">thrive.md</a>
+                </div>
+            </div>
+
+            <div class="disclaimer">
+                <strong>Medical Disclaimer:</strong> This content is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider with questions about a medical condition. Never disregard professional medical advice or delay seeking it because of something you read on this site. If you are in crisis, call 988 (Suicide &amp; Crisis Lifeline) or go to your nearest emergency room.
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container-wide">
+            <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
+                <a href="https://thrive.md">thrive.md</a>
+                <a href="https://anxiety.md">anxiety.md</a>
+                <a href="https://depression.md">depression.md</a>
+                <a href="https://ptsd.md">ptsd.md</a>
+                <a href="https://bipolar.md">bipolar.md</a>
+                <a href="https://ocd.md">ocd.md</a>
+                <a href="https://insomnia.md">insomnia.md</a>
+                <a href="https://ozempic.md">ozempic.md</a>
+                <a href="https://hypertension.md">hypertension.md</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 mammogram.md — Part of the <a href="https://thrive.md">thrive.md</a> health network</p>
+        </div>
+    </footer>
+
+    <script>
+    // GA4 engagement tracking
+    let scrollMax = 0;
+    window.addEventListener('scroll', function() {
+        const pct = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+        if (pct > scrollMax) {
+            scrollMax = pct;
+            if ([25, 50, 75, 100].includes(pct)) {
+                gtag('event', 'scroll_depth', { percent: pct, page: location.pathname });
+            }
+        }
+    });
+    // Time on page
+    const startTime = Date.now();
+    window.addEventListener('beforeunload', function() {
+        const seconds = Math.round((Date.now() - startTime) / 1000);
+        gtag('event', 'time_on_page', { seconds: seconds, page: location.pathname });
+    });
+    </script>
+</body>
+</html>
